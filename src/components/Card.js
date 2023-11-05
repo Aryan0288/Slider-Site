@@ -27,7 +27,7 @@ const Card = (props) => {
         inc(randomIndex);
     }
     return (
-        <div className="flex flex-col items-center relative bg-white w-6/12 mx-auto pt-16 pb-8 px-[44px]">
+        <div className="flex flex-col items-center relative bg-white w-6/12 mx-auto pt-16 pb-8 px-[44px] rounded-md">
             <div className="absolute top-[-5rem] z-[10] left-[1.5rem]">
                 <img className="aspect-square rounded-full w-[140px] h-[140px] z-25" src={data.image} />
                 <div className="rounded-full w-[140px] h-[140px] bg-violet-500 absolute top-[-6px] z-[-10] left-[8px]"></div>
